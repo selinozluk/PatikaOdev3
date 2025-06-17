@@ -9,7 +9,7 @@ namespace IfElseProject
             // Kullanıcıdan sayı girişi
             Console.WriteLine("Lütfen bir sayı giriniz:");
 
-            // Kullanıcının girdiği değeri string olarak alır, integer'a çevirir
+         // Kullanıcının girdiği değeri string olarak alır, integer'a çevirir
             int num = Convert.ToInt32(Console.ReadLine());
 
             // Sayının 10'a göre durumu
@@ -19,7 +19,7 @@ namespace IfElseProject
             }
             else if (num < 10)
             {
-           // Sayının 10'dan büyük olup olmadığı sorgusu
+              // Sayının 10'dan büyük olup olmadığı sorgusu
                 Console.WriteLine("Girilen sayı 10'dan küçüktür.");
             }
             else
